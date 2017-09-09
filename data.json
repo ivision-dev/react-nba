@@ -1,0 +1,564 @@
+{
+  "home": {
+    "slider": [
+      {
+        "id": "1",
+        "cover": "cover_1.jpg",
+        "topic": "Kyrie Irving",
+        "title": "Out of the shadow"
+      },
+      {
+        "id": "2",
+        "cover": "cover_2.jpg",
+        "topic": "Isaiah Thomas",
+        "title": "From folk hero to risky investment"
+      },
+      {
+        "id": "3",
+        "cover": "cover_3.jpg",
+        "topic": "Top 5 Backcourts",
+        "title": "West Coast Clash"
+      },
+      {
+        "id": "4",
+        "cover": "cover_4.jpg",
+        "topic": "John Wall",
+        "title": "Speed is his game"
+      }
+    ],
+    "blocks": [
+      {
+        "id": "p1",
+        "type": "lg",
+        "image": "1.jpg",
+        "title": "Milwaukee Highlights",
+        "link": "/highlights"
+      },
+      {
+        "id": "p2",
+        "type": "md",
+        "image": "2.jpg",
+        "title": "Scorer of the week",
+        "link": "/scorers"
+      },
+      {
+        "id": "p3",
+        "type": "sm",
+        "image": "3.jpg",
+        "title": "Super Dunks",
+        "link": "/dunks"
+      },
+      {
+        "id": "p4",
+        "type": "sm",
+        "image": "4.jpg",
+        "title": "Gino did it again",
+        "link": "/gino"
+      },
+      {
+        "id": "p5",
+        "type": "md",
+        "image": "5.jpg",
+        "title": "Super Blazers",
+        "link": "/blazers"
+      },
+      {
+        "id": "p6",
+        "type": "lg",
+        "image": "6.jpg",
+        "title": "Memphis to the win",
+        "link": "/matches"
+      }
+    ],
+    "poll": [
+      {
+        "id": "p1",
+        "team": "Golden State",
+        "thumg": "ss",
+        "count": 2543
+      },
+      {
+        "id": "p1",
+        "team": "Cavaliers",
+        "thumg": "ss",
+        "count": 2544
+      },
+      {
+        "id": "p1",
+        "team": "Boston",
+        "thumg": "ss",
+        "count": 2
+      }
+    ]
+  },
+  "subscriptions": [
+    {
+      "email": "hardwood@houdini.com",
+      "id": 1
+    },
+    {
+      "email": "oliver@gmail.com",
+      "id": 2
+    },
+    {
+      "email": "test@user.com",
+      "id": 3
+    },
+    {
+      "email": "email@email.com",
+      "id": 7
+    }
+  ],
+  "teams": [
+    {
+      "id": 1,
+      "name": "Hawks",
+      "logo": "hawks.png",
+      "city": "Atlanta",
+      "poll": "false",
+      "count": 0,
+      "conference": "Eastern",
+      "division": "Southeast",
+      "record": {
+          "regSeason": "2693-2695 (.500)",
+          "playoffs": "155-206 (.429)"
+      },
+      "championships": [1958]
+    },
+    {
+      "id": 2,
+      "name": "Celtics",
+      "logo": "celtics.png",
+      "city": "Boston",
+      "poll": "true",
+      "count": 6698,
+      "conference": "Eastern",
+      "division": "Atlantic",
+      "record": {
+          "regSeason": "3274-2286 (.589)",
+          "playoffs": "355-270 (.568)"
+      },
+      "championships": [1957, 1959, 1960, 1961, 1962, 1963, 1964, 1965, 1966, 1968, 1969, 1974, 1976, 1981, 1984, 1986, 2008]
+    },
+    {
+      "id": 3,
+      "name": "Nets",
+      "logo": "nets.png",
+      "city": "Brooklyn",
+      "poll": "false",
+      "count": 0,
+      "conference": "Eastern",
+      "division": "Atlantic",
+      "record": {
+          "regSeason": "1380-1934 (.416)",
+          "playoffs": "62-80 (.437)"
+      },
+      "championships": []
+    },
+    {
+      "id": 4,
+      "name": "Hornets",
+      "logo": "hornets.png",
+      "city": "Charlotte",
+      "poll": "false",
+      "count": 0,
+      "conference": "Eastern",
+      "division": "Southeast",
+      "record": {
+          "regSeason": "952-1214 (.440)",
+          "playoffs": "23-40 (.365)"
+      },
+      "championships": []
+    },
+    {
+      "id": 5,
+      "name": "Bulls",
+      "logo": "bulls.png",
+      "city": "Chicago",
+      "poll": "false",
+      "count": 0,
+      "conference": "Eastern",
+      "division": "Central",
+      "record": {
+          "regSeason": "2156-1977 (.522)",
+          "playoffs": "186-158 (.541)"
+      },
+      "championships": [1991, 1992, 1993, 1996, 1997, 1998]
+    },
+    {
+      "id": 6,
+      "name": "Cavaliers",
+      "logo": "cavaliers.png",
+      "city": "Cleveland",
+      "poll": "true",
+      "count": 4577,
+      "conference": "Eastern",
+      "division": "Central",
+      "record": {
+          "regSeason": "1779-2027 (.467)",
+          "playoffs": "113-94 (.546)"
+      },
+      "championships": [2016]
+    },
+    {
+      "id": 7,
+      "name": "Mavericks",
+      "logo": "mavericks.png",
+      "city": "Dallas",
+      "poll": "false",
+      "count": 0,
+      "conference": "Western",
+      "division": "Southwest",
+      "record": {
+          "regSeason": "1515-1471 (.507)",
+          "playoffs": "91-105 (.464)"
+      },
+      "championships": [2011]
+    },
+    {
+      "id": 8,
+      "name": "Nuggets",
+      "logo": "nuggets.png",
+      "city": "Denver",
+      "poll": "false",
+      "count": 0,
+      "conference": "Western",
+      "division": "Northwest",
+      "record": {
+          "regSeason": "1603-1711 (.484)",
+          "playoffs": "61-101 (.377)"
+      },
+      "championships": []
+    },
+    {
+      "id": 9,
+      "name": "Pistons",
+      "logo": "pistons.png",
+      "city": "Detroit",
+      "poll": "false",
+      "count": 0,
+      "conference": "Eastern",
+      "division": "Central",
+      "record": {
+          "regSeason": "2653-2797 (.487)",
+          "playoffs": "188-178 (.514)"
+      },
+      "championships": [1989, 1990, 2004]
+    },
+    {
+      "id": 10,
+      "name": "Warriors",
+      "logo": "warriors.png",
+      "city": "Golden State",
+      "poll": "true",
+      "count": 1997,
+      "conference": "Western",
+      "division": "Pacific",
+      "record": {
+          "regSeason": "2657-2899 (.478)",
+          "playoffs": "160-146 (.523)"
+      },
+      "championships": [1947, 1956, 1975, 2015, 2017]
+    },
+    {
+      "id": 11,
+      "name": "Rockets",
+      "logo": "rockets.png",
+      "city": "Houston",
+      "poll": "false",
+      "count": 0,
+      "conference": "Western",
+      "division": "Southwest",
+      "record": {
+          "regSeason": "2107-1945 (.520)",
+          "playoffs": "136-146 (.482)"
+      },
+      "championships": [1994, 1995]
+    },
+    {
+      "id": 12,
+      "name": "Pacers",
+      "logo": "pacers.png",
+      "city": "Indiana",
+      "poll": "false",
+      "count": 0,
+      "conference": "Eastern",
+      "division": "Central",
+      "record": {
+          "regSeason": "1648-1665 (.497)",
+          "playoffs": "112-114 (.496)"
+      },
+      "championships": []
+    },
+    {
+      "id": 13,
+      "name": "Clippers",
+      "logo": "clippers.png",
+      "city": "Los Angeles",
+      "poll": "false",
+      "count": 0,
+      "conference": "Western",
+      "division": "Pacific",
+      "record": {
+          "regSeason": "1520-2286 (.399)",
+          "playoffs": "44-60 (.423)"
+      },
+      "championships": []
+    },
+    {
+      "id": 14,
+      "name": "Lakers",
+      "logo": "lakers.png",
+      "city": "Los Angeles",
+      "poll": "false",
+      "count": 0,
+      "conference": "Western",
+      "division": "Pacific",
+      "record": {
+          "regSeason": "3261-2190 (.598)",
+          "playoffs": "438-296 (.597)"
+      },
+      "championships": [1949, 1950, 1952, 1953, 1954, 1972, 1980, 1982, 1985, 1987, 1988, 2000, 2001, 2002, 2009, 2010]
+    },
+    {
+      "id": 15,
+      "name": "Grizzlies",
+      "logo": "grizzlies.png",
+      "city": "Memphis",
+      "poll": "false",
+      "count": 0,
+      "conference": "Western",
+      "division": "Southwest",
+      "record": {
+          "regSeason": "737-1019 (.420)",
+          "playoffs": "29-46 (.387)"
+      },
+      "championships": []
+    },
+    {
+      "id": 16,
+      "name": "Heat",
+      "logo": "heat.png",
+      "city": "Miami",
+      "poll": "false",
+      "count": 0,
+      "conference": "Eastern",
+      "division": "Southeast",
+      "record": {
+          "regSeason": "1211-1119 (.520)",
+          "playoffs": "123-96 (.562)"
+      },
+      "championships": [2006, 2012, 2013]
+    },
+    {
+      "id": 17,
+      "name": "Bucks",
+      "logo": "bucks.png",
+      "city": "Milwaukee",
+      "poll": "false",
+      "count": 0,
+      "conference": "Eastern",
+      "division": "Central",
+      "record": {
+          "regSeason": "2025-1945 (.510)",
+          "playoffs": "108-126 (.462)"
+      },
+      "championships": [1971]
+    },
+    {
+      "id": 18,
+      "name": "Timberwolves",
+      "logo": "timberwolves.png",
+      "city": "Minnesota",
+      "poll": "false",
+      "count": 0,
+      "conference": "Western",
+      "division": "Northwest",
+      "record": {
+          "regSeason": "878-1370 (.391)",
+          "playoffs": "17-30 (.362)"
+      },
+      "championships": []
+    },
+    {
+      "id": 19,
+      "name": "Pelicans",
+      "logo": "pelicans.png",
+      "city": "New Orleans",
+      "poll": "false",
+      "count": 0,
+      "conference": "Western",
+      "division": "Southwest",
+      "record": {
+          "regSeason": "562-652 (.463)",
+          "playoffs": "15-25 (.375)"
+      },
+      "championships": []
+    },
+    {
+      "id": 20,
+      "name": "knicks",
+      "logo": "knicks.png",
+      "city": "New York",
+      "poll": "false",
+      "count": 0,
+      "conference": "Eastern",
+      "division": "Atlantic",
+      "record": {
+          "regSeason": "2732-2825 (.492)",
+          "playoffs": "186-189 (.496)"
+      },
+      "championships": [1970, 1973]
+    },
+    {
+      "id": 21,
+      "name": "Thunder",
+      "logo": "thunder.png",
+      "city": "Oklahoma City",
+      "poll": "false",
+      "count": 0,
+      "conference": "Western",
+      "division": "Northwest",
+      "record": {
+          "regSeason": "2186-1866 (.539)",
+          "playoffs": "158-155 (.505)"
+      },
+      "championships": [1979]
+    },
+    {
+      "id": 22,
+      "name": "Magic",
+      "logo": "magic.png",
+      "city": "Orlando",
+      "poll": "false",
+      "count": 0,
+      "conference": "Eastern",
+      "division": "Southeast",
+      "record": {
+          "regSeason": "1091-1157 (.485)",
+          "playoffs": "57-66 (.463)"
+      },
+      "championships": []
+    },
+    {
+      "id": 23,
+      "name": "76ers",
+      "logo": "76ers.png",
+      "city": "Philadelphia",
+      "poll": "false",
+      "count": 0,
+      "conference": "Eastern",
+      "division": "Atlantic",
+      "record": {
+          "regSeason": "2754-2632 (.511)",
+          "playoffs": "216-205 (.513)"
+      },
+      "championships": [1955, 1967, 1983]
+    },
+    {
+      "id": 24,
+      "name": "Spurs",
+      "logo": "spurs.png",
+      "city": "San Antonio",
+      "poll": "false",
+      "count": 0,
+      "conference": "Western",
+      "division": "Southwest",
+      "record": {
+          "regSeason": "2067-1247 (.624)",
+          "playoffs": "218-173 (.558)"
+      },
+      "championships": [1999, 2003, 2005, 2007, 2014]
+    },
+    {
+      "id": 25,
+      "name": "Suns",
+      "logo": "suns.png",
+      "city": "Phoenix",
+      "poll": "false",
+      "count": 0,
+      "conference": "Western",
+      "division": "Pacific",
+      "record": {
+          "regSeason": "2146-1824 (.541)",
+          "playoffs": "133-141 (.485)"
+      },
+      "championships": []
+    },
+    {
+      "id": 26,
+      "name": "Kings",
+      "logo": "kings.png",
+      "city": "Sacramento",
+      "poll": "false",
+      "count": 0,
+      "conference": "Western",
+      "division": "Pacific",
+      "record": {
+          "regSeason": "2496-2955 (.458)",
+          "playoffs": "80-107 (.428)"
+      },
+      "championships": [1951]
+    },
+    {
+      "id": 27,
+      "name": "Raptors",
+      "logo": "raptors.png",
+      "city": "Toronto",
+      "poll": "false",
+      "count": 0,
+      "conference": "Eastern",
+      "division": "Atlantic",
+      "record": {
+          "regSeason": "785-971 (.447)",
+          "playoffs": "28-44 (.389)"
+      },
+      "championships": []
+    },
+    {
+      "id": 28,
+      "name": "Jazz",
+      "logo": "jazz.png",
+      "city": "Utah",
+      "poll": "false",
+      "count": 0,
+      "conference": "Western",
+      "division": "Northwest",
+      "record": {
+          "regSeason": "1866-1612 (.537)",
+          "playoffs": "118-134 (.468)"
+      },
+      "championships": []
+    },
+    {
+      "id": 29,
+      "name": "Trail Blazers",
+      "logo": "blazers.png",
+      "city": "Portland",
+      "poll": "true",
+      "count": 4245,
+      "conference": "Western",
+      "division": "Northwest",
+      "record": {
+          "regSeason": "2032-1774 (.534)",
+          "playoffs": "108-135 (.444)"
+      },
+      "championships": [1977]
+    },
+    {
+       "id": 30,
+       "name": "Wizards",
+       "logo": "wizards.png",
+       "city": "Washington",
+       "poll": "true",
+       "count": 2077,
+       "conference": "Eastern",
+       "division": "Southeast",
+       "record": {
+           "regSeason": "2053-2480 (.453)",
+           "playoffs": "96-130 (.425)"
+       },
+       "championships": [1978]
+    }
+  ]
+}
