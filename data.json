@@ -69,31 +69,9 @@
         "title": "Memphis to the win",
         "link": "/matches"
       }
-    ],
-    "poll": [
-      {
-        "id": "p1",
-        "team": "Golden State",
-        "thumg": "ss",
-        "count": 2543
-      },
-      {
-        "id": "p1",
-        "team": "Cavaliers",
-        "thumg": "ss",
-        "count": 2544
-      },
-      {
-        "id": "p1",
-        "team": "Boston",
-        "thumg": "ss",
-        "count": 2
-      }
     ]
   },
-  "subscriptions": [
-    
-  ],
+  "subscriptions": [],
   "teams": [
     {
       "id": 1,
@@ -118,7 +96,7 @@
       "logo": "celtics.png",
       "city": "Boston",
       "poll": "true",
-      "count": 6698,
+      "count": 6700,
       "conference": "Eastern",
       "division": "Atlantic",
       "record": {
@@ -270,8 +248,8 @@
       "name": "Warriors",
       "logo": "warriors.png",
       "city": "Golden State",
-      "poll": "true",
-      "count": 1997,
+      "poll": "false",
+      "count": 0,
       "conference": "Western",
       "division": "Pacific",
       "record": {
@@ -291,8 +269,8 @@
       "name": "Rockets",
       "logo": "rockets.png",
       "city": "Houston",
-      "poll": "false",
-      "count": 0,
+      "poll": "true",
+      "count": 1281,
       "conference": "Western",
       "division": "Southwest",
       "record": {
@@ -422,8 +400,8 @@
       "name": "Timberwolves",
       "logo": "timberwolves.png",
       "city": "Minnesota",
-      "poll": "false",
-      "count": 0,
+      "poll": "true",
+      "count": 558,
       "conference": "Western",
       "division": "Northwest",
       "record": {
@@ -521,8 +499,8 @@
       "name": "Spurs",
       "logo": "spurs.png",
       "city": "San Antonio",
-      "poll": "false",
-      "count": 0,
+      "poll": "true",
+      "count": 1280,
       "conference": "Western",
       "division": "Southwest",
       "record": {
@@ -604,8 +582,8 @@
       "name": "Trail Blazers",
       "logo": "blazers.png",
       "city": "Portland",
-      "poll": "true",
-      "count": 4245,
+      "poll": "false",
+      "count": 0,
       "conference": "Western",
       "division": "Northwest",
       "record": {
@@ -621,8 +599,8 @@
       "name": "Wizards",
       "logo": "wizards.png",
       "city": "Washington",
-      "poll": "true",
-      "count": 2077,
+      "poll": "false",
+      "count": 0,
       "conference": "Eastern",
       "division": "Southeast",
       "record": {

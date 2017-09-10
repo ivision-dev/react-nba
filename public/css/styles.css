@@ -210,4 +210,30 @@ footer {
     transition: all 500ms ease-in-out;
 }
 
+.home-poll {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.poll-container  {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.poll-container .poll-item {
+    padding: 20px;
+    flex-grow: 1;
+}
+
+.poll-container .poll-item img {
+    width: 90%;
+}
+
+.poll-container .poll-item div {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 18px;
+}
+
 
