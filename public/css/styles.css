@@ -236,4 +236,61 @@ footer {
     font-size: 18px;
 }
 
+.fade-appear,
+.fade-enter {
+    opacity: 0.01;
+}
+
+.fade-leave {
+    opacity: 1;
+}
+
+.fade-appear.fade-appear-active,
+.fade-enter.fade-enter-active,
+.fade-leave.fade-leave-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+}
+
+.teams-component {
+    min-height: 800px;
+}
+
+.teams-input {
+    text-align: center;
+    padding: 20px 0;
+    background: #e6e6e6;
+}
+
+.teams-input input {
+    font-family: 'Roboto';
+    border-radius: 20px;
+    border: 1px solid #ddd;
+    color: #000;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.teams-input input:focus {
+    outline: none;
+}
+
+.teams-container span {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.teams-container .team-item {
+    width: 25%;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.teams-container .team-item img {
+    width: 100%;
+}
+
 
