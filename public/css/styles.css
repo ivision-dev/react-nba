@@ -13,6 +13,7 @@ body {
 
 a {
     text-decoration: none;
+    color: #006bb6;
 }
 
 h3 {
@@ -293,4 +294,76 @@ footer {
     width: 100%;
 }
 
+.team-data-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
 
+.team-data-wrapper .left {
+    box-sizing: border-box;
+    padding: 10px 20px;
+}
+
+.team-data-wrapper .right {
+    flex-grow: 1;
+    box-sizing: border-box;
+    border-left: 1px solid #b9b9b9;
+    padding: 0px 20px;
+}
+
+.team-data-wrapper .right .conference {
+    width: 150px;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+}
+
+.team-data-wrapper .right .team-details span {
+    
+}
+
+.team-data-wrapper .left img {
+    width: 150px;
+}
+
+.team-data-wrapper h1 {
+    color: #6d6d6d;
+}
+
+.team-data-wrapper .roster {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.team-data-wrapper .roster .item-player-wrapper {
+    position: relative;
+    width: 33%;
+    overflow: hidden;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.team-data-wrapper .roster .item-player-wrapper h4 {
+    text-align: center;
+    color: #006bb6;
+}
+
+.team-data-wrapper .roster .item-player-wrapper img {
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+}
+
+.team-data-wrapper .roster .item-player-wrapper .node {
+    text-align: center;
+    font-size: 14px;
+    padding: 4px 0;
+}
+
+.team-data-wrapper .roster .item-player-wrapper .node span {
+    font-weight: 600;
+}
