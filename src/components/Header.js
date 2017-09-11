@@ -10,6 +10,7 @@ const Header = () => {
                 </Link>
                 <nav>
                     <Link to="/teams">Teams</Link>
+                    <Link to="/players">Players</Link>
                 </nav>
             </div>
         </header>

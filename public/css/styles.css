@@ -16,6 +16,10 @@ a {
     color: #006bb6;
 }
 
+nav a {
+    padding: 10px;
+}
+
 h3 {
     font-family: 'Fjalla One', sans-serif;
     font-size: 35px;
@@ -253,17 +257,20 @@ footer {
     transition: opacity 500ms ease-in;
 }
 
-.teams-component {
+.teams-component,
+.players-component {
     min-height: 800px;
 }
 
-.teams-input {
+.teams-input,
+.players-input {
     text-align: center;
     padding: 20px 0;
     background: #e6e6e6;
 }
 
-.teams-input input {
+.teams-input input,
+.players-input input {
     font-family: 'Roboto';
     border-radius: 20px;
     border: 1px solid #ddd;
@@ -274,23 +281,27 @@ footer {
     text-align: center;
 }
 
-.teams-input input:focus {
+.teams-input input:focus,
+.players-input input:focus {
     outline: none;
 }
 
-.teams-container span {
+.teams-container span,
+.players-container span {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
-.teams-container .team-item {
+.teams-container .team-item,
+.players-container .player-item {
     width: 25%;
     padding: 30px;
     box-sizing: border-box;
 }
 
-.teams-container .team-item img {
+.teams-container .team-item img,
+.players-container .player-item img {
     width: 100%;
 }
 
@@ -347,7 +358,8 @@ footer {
     box-sizing: border-box;
 }
 
-.team-data-wrapper .roster .item-player-wrapper h4 {
+.team-data-wrapper .roster .item-player-wrapper h4,
+.players-container .player-item h4 {
     text-align: center;
     color: #006bb6;
 }

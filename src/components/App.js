@@ -7,6 +7,7 @@ import Footer from './Footer';
 import Home from './Home';
 import Teams from './Teams';
 import Team from './Team';
+import Players from './Players';
 
 class App extends Component {
     render() {
@@ -17,6 +18,7 @@ class App extends Component {
                     <Route exact path="/" component={Home} />
                     <Route exact path="/teams" component={Teams} />
                     <Route exact path="/team/:id" component={Team} />
+                    <Route exact path="/players" component={Players} />
                     <Footer />
                 </div>
             </BrowserRouter>
